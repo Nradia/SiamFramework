@@ -6,9 +6,11 @@
       <class name="extentReportYoitube.ExtenReportDemo">
         <methods>
           <include name="setExtent"/>
+          <include name="signInClick"/>
           <include name="setupbrowser"/>
           <include name="teardown"/>
           <include name="endReport"/>
+          <include name="validateLogo"/>
           <include name="validateTitle"/>
         </methods>
       </class> <!-- extentReportYoitube.ExtenReportDemo -->

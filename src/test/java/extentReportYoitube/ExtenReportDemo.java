@@ -12,6 +12,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
@@ -44,7 +45,7 @@ public class ExtenReportDemo {
 	public void setExtent() {
 		htmlreporter=new ExtentHtmlReporter(System.getProperty("user.dir")+"/test-output/MyReport.html");
 		htmlreporter.config().setDocumentTitle("Automation Report=docment title");//title of report
-		htmlreporter.config().setReportName("Functional teats=report title");
+		htmlreporter.config().setReportName("Functional tests=report title");
 		htmlreporter.config().setTheme(Theme.DARK);
 		// create test case 
 		extent=new ExtentReports();
@@ -93,8 +94,10 @@ public void endReport() {
 }
 @BeforeMethod
 public void setupbrowser() {
-	System.setProperty("webdriver.chrome.driver","C:\\Users\\radia\\eclipse-workspace\\siamFramework\\Drivers\\chromedriver.exe");
-    driver= new ChromeDriver();
+
+	//System.setProperty("webdriver.gecko.driver","C:\\Users\\radia\\eclipse-workspace\\siamFramework\\Drivers\\chromedriver.exe");
+	System.setProperty("webdriver.gecko.driver","C:\\Users\\radia\\eclipse-workspace\\siamFramework\\Drivers\\geckodriver.exe");
+	driver= new FirefoxDriver();
 	//driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 	driver.manage().window().maximize();
 	//driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
@@ -109,7 +112,7 @@ public void teardown(ITestResult result) throws IOException {
 		String screenshotpath=getScreenShot(driver, result.getName());
 		test.addScreenCaptureFromPath(screenshotpath);
 	}
-	driver.quit();
+	//driver.quit();
 }
 
 public static String getScreenShot(WebDriver driver, String screenshotname) throws IOException {

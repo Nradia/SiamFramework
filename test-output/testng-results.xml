@@ -1,72 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+<testng-results skipped="2" failed="1" ignored="0" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="55842" started-at="2021-07-26T05:47:06 EDT" finished-at="2021-07-26T05:48:02 EDT">
+  <suite name="Default suite" duration-ms="418891" started-at="2021-08-14T18:32:52 EDT" finished-at="2021-08-14T18:39:51 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="55842" started-at="2021-07-26T05:47:06 EDT" finished-at="2021-07-26T05:48:02 EDT">
+    <test name="Default test" duration-ms="418891" started-at="2021-08-14T18:32:52 EDT" finished-at="2021-08-14T18:39:51 EDT">
       <class name="extentReportYoitube.ExtenReportDemo">
-        <test-method status="PASS" signature="setExtent()[pri:0, instance:extentReportYoitube.ExtenReportDemo@38bc8ab5]" name="setExtent" is-config="true" duration-ms="107" started-at="2021-07-26T05:47:06 EDT" finished-at="2021-07-26T05:47:06 EDT">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:extentReportYoitube.ExtenReportDemo@38bc8ab5]" name="setExtent" is-config="true" duration-ms="8289" started-at="2021-08-14T18:32:52 EDT" finished-at="2021-08-14T18:33:01 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method status="PASS" signature="setupbrowser()[pri:0, instance:extentReportYoitube.ExtenReportDemo@38bc8ab5]" name="setupbrowser" is-config="true" duration-ms="22406" started-at="2021-07-26T05:47:06 EDT" finished-at="2021-07-26T05:47:29 EDT">
+        <test-method status="PASS" signature="setupbrowser()[pri:0, instance:extentReportYoitube.ExtenReportDemo@38bc8ab5]" name="setupbrowser" is-config="true" duration-ms="41404" started-at="2021-08-14T18:33:01 EDT" finished-at="2021-08-14T18:33:42 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupbrowser -->
-        <test-method status="PASS" signature="signInClick()[pri:0, instance:extentReportYoitube.ExtenReportDemo@38bc8ab5]" name="signInClick" duration-ms="2659" started-at="2021-07-26T05:47:29 EDT" finished-at="2021-07-26T05:47:32 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signInClick -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:extentReportYoitube.ExtenReportDemo@38bc8ab5]" name="teardown" is-config="true" duration-ms="656" started-at="2021-07-26T05:47:32 EDT" finished-at="2021-07-26T05:47:32 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=signInClick status=SUCCESS method=ExtenReportDemo.signInClick()[pri:0, instance:extentReportYoitube.ExtenReportDemo@38bc8ab5] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setupbrowser()[pri:0, instance:extentReportYoitube.ExtenReportDemo@38bc8ab5]" name="setupbrowser" is-config="true" duration-ms="13709" started-at="2021-07-26T05:47:32 EDT" finished-at="2021-07-26T05:47:46 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupbrowser -->
-        <test-method status="PASS" signature="validateLogo()[pri:0, instance:extentReportYoitube.ExtenReportDemo@38bc8ab5]" name="validateLogo" duration-ms="75" started-at="2021-07-26T05:47:46 EDT" finished-at="2021-07-26T05:47:46 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateLogo -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:extentReportYoitube.ExtenReportDemo@38bc8ab5]" name="teardown" is-config="true" duration-ms="1067" started-at="2021-07-26T05:47:46 EDT" finished-at="2021-07-26T05:47:47 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=validateLogo status=SUCCESS method=ExtenReportDemo.validateLogo()[pri:0, instance:extentReportYoitube.ExtenReportDemo@38bc8ab5] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setupbrowser()[pri:0, instance:extentReportYoitube.ExtenReportDemo@38bc8ab5]" name="setupbrowser" is-config="true" duration-ms="11731" started-at="2021-07-26T05:47:47 EDT" finished-at="2021-07-26T05:47:59 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupbrowser -->
-        <test-method status="FAIL" signature="validateTitle()[pri:0, instance:extentReportYoitube.ExtenReportDemo@38bc8ab5]" name="validateTitle" duration-ms="8" started-at="2021-07-26T05:47:59 EDT" finished-at="2021-07-26T05:47:59 EDT">
-          <exception class="java.lang.AssertionError">
+        <test-method status="FAIL" signature="signInClick()[pri:0, instance:extentReportYoitube.ExtenReportDemo@38bc8ab5]" name="signInClick" duration-ms="301950" started-at="2021-08-14T18:33:42 EDT" finished-at="2021-08-14T18:38:44 EDT">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[expected [amaznv] but found [Amazon.com. Spend less. Smile more.]]]>
+              <![CDATA[TimedPromise timed out after 300000 ms
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RADIA', ip: '192.168.252.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 91.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210804193234, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 17868, moz:profile: C:\Users\radia\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: af232c51-d5e2-49d3-b9f1-36eeb9b35c45]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [amaznv] but found [Amazon.com. Spend less. Smile more.]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at extentReportYoitube.ExtenReportDemo.validateTitle(ExtenReportDemo.java:75)
+              <![CDATA[org.openqa.selenium.TimeoutException: TimedPromise timed out after 300000 ms
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RADIA', ip: '192.168.252.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 91.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210804193234, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 17868, moz:profile: C:\Users\radia\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: af232c51-d5e2-49d3-b9f1-36eeb9b35c45
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at extentReportYoitube.ExtenReportDemo.signInClick(ExtenReportDemo.java:65)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -97,22 +75,271 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateTitle -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:extentReportYoitube.ExtenReportDemo@38bc8ab5]" name="teardown" is-config="true" duration-ms="3142" started-at="2021-07-26T05:47:59 EDT" finished-at="2021-07-26T05:48:02 EDT">
+        </test-method> <!-- signInClick -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:extentReportYoitube.ExtenReportDemo@38bc8ab5]" name="teardown" is-config="true" duration-ms="1808" started-at="2021-08-14T18:38:44 EDT" finished-at="2021-08-14T18:38:46 EDT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateTitle status=FAILURE method=ExtenReportDemo.validateTitle()[pri:0, instance:extentReportYoitube.ExtenReportDemo@38bc8ab5] output={null}]]]>
+                <![CDATA[[TestResult name=signInClick status=FAILURE method=ExtenReportDemo.signInClick()[pri:0, instance:extentReportYoitube.ExtenReportDemo@38bc8ab5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:extentReportYoitube.ExtenReportDemo@38bc8ab5]" name="endReport" is-config="true" duration-ms="245" started-at="2021-07-26T05:48:02 EDT" finished-at="2021-07-26T05:48:02 EDT">
+        <test-method status="FAIL" signature="setupbrowser()[pri:0, instance:extentReportYoitube.ExtenReportDemo@38bc8ab5]" name="setupbrowser" is-config="true" duration-ms="65340" started-at="2021-08-14T18:38:46 EDT" finished-at="2021-08-14T18:39:51 EDT">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[No connection could be made because the target machine actively refused it. (os error 10061)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RADIA', ip: '192.168.252.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: No connection could be made because the target machine actively refused it. (os error 10061)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RADIA', ip: '192.168.252.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+at extentReportYoitube.ExtenReportDemo.setupbrowser(ExtenReportDemo.java:100)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupbrowser -->
+        <test-method status="SKIP" signature="validateLogo()[pri:0, instance:extentReportYoitube.ExtenReportDemo@38bc8ab5]" name="validateLogo" duration-ms="0" started-at="2021-08-14T18:39:51 EDT" finished-at="2021-08-14T18:39:51 EDT">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[No connection could be made because the target machine actively refused it. (os error 10061)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RADIA', ip: '192.168.252.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: No connection could be made because the target machine actively refused it. (os error 10061)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RADIA', ip: '192.168.252.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+at extentReportYoitube.ExtenReportDemo.setupbrowser(ExtenReportDemo.java:100)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogo -->
+        <test-method status="SKIP" signature="teardown(org.testng.ITestResult)[pri:0, instance:extentReportYoitube.ExtenReportDemo@38bc8ab5]" name="teardown" is-config="true" duration-ms="-1628980791607" started-at="2021-08-14T18:39:51 EDT" finished-at="1969-12-31T19:00:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="SKIP" signature="setupbrowser()[pri:0, instance:extentReportYoitube.ExtenReportDemo@38bc8ab5]" name="setupbrowser" is-config="true" duration-ms="-1628980791609" started-at="2021-08-14T18:39:51 EDT" finished-at="1969-12-31T19:00:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupbrowser -->
+        <test-method status="SKIP" signature="validateTitle()[pri:0, instance:extentReportYoitube.ExtenReportDemo@38bc8ab5]" name="validateTitle" duration-ms="0" started-at="2021-08-14T18:39:51 EDT" finished-at="2021-08-14T18:39:51 EDT">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[No connection could be made because the target machine actively refused it. (os error 10061)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RADIA', ip: '192.168.252.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: No connection could be made because the target machine actively refused it. (os error 10061)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RADIA', ip: '192.168.252.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+at extentReportYoitube.ExtenReportDemo.setupbrowser(ExtenReportDemo.java:100)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method status="SKIP" signature="teardown(org.testng.ITestResult)[pri:0, instance:extentReportYoitube.ExtenReportDemo@38bc8ab5]" name="teardown" is-config="true" duration-ms="-1628980791614" started-at="2021-08-14T18:39:51 EDT" finished-at="1969-12-31T19:00:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="SKIP" signature="endReport()[pri:0, instance:extentReportYoitube.ExtenReportDemo@38bc8ab5]" name="endReport" is-config="true" duration-ms="-1628980791617" started-at="2021-08-14T18:39:51 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
